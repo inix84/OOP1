@@ -4,7 +4,6 @@ public class human {
     String town;
     String gender;
     String jobTitle;
-
     human(String gender, String name,String town, int yearOfBirth, String jobTitle) {
         this.gender = gender;
         if (yearOfBirth>0) {
@@ -41,6 +40,3 @@ public class human {
         }
     }
 }
-
-
-
